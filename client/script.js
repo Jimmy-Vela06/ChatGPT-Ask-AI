@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
 
   loadingResponse(messageDiv);
 
-  const response = await fetch("http://localhost:3000", {
+  const response = await fetch("https://ask-ai-rslv.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
